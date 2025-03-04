@@ -29,13 +29,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <title>Signin</title>
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
+    <div class="sign">
     <h2>Signin</h2>
     <form method="post">
         <input type="email" name="email" placeholder="Email" required><br>
         <input type="password" name="password" placeholder="Password" required><br>
         <button type="submit">Signin</button>
     </form>
+    <a href="signup.php" class="link"><p>signup If you don't have account</p></a>
+</div>
 </body>
 </html>

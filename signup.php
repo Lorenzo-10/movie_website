@@ -20,14 +20,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <title>Signup</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="login">
     <h2>Signup</h2>
-    <form method="post">
-        <input type="text" name="name" placeholder="Full Name" required><br>
-        <input type="email" name="email" placeholder="Email" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
-        <button type="submit">Signup</button>
-    </form>
+    <form action="signup.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+</div>
 </body>
 </html>

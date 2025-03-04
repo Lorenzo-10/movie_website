@@ -19,22 +19,15 @@
 }
 
 .signup-btn {
-    background-color: #28A745; /* Green */
+    background-color: #ffb43a; /* Green */
 }
 
 .signin-btn {
-    background-color: #007BFF; /* Blue */
+    background-color: #ffb43a; /* Blue */
 }
 
 .logout-btn {
-    background-color: #DC3545; /* Red */
-}
-
-.welcome-msg {
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    margin-right: 15px;
+    background-color: #ffb43a; /* Red */
 }
 
 /*some variables*/
@@ -588,4 +581,60 @@ header{
         padding: 11px 0;
     }
     
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #161515;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    
+}
+h2 {
+    margin-bottom: 20px;
+    color: hsl(0, 100%, 99%);
+    text-align: center;
+}
+input {
+    width: 60%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #353434;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+button {
+    width: 40%;
+    height: 10%;
+    padding: 12px;
+    background: #037d03;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #026002;
+}
+
+.login{
+    background-color: #ca5705;
+    border-radius: 2%;
+    height: 60%;
+    width: 39%;
 }
